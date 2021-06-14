@@ -1,5 +1,7 @@
 # MechaCar_Statistical_Analysis
 
+Statistical Summary below...
+
 ## Linear Regression to Predict MPG
 ![Image 1](Resources/image1.png "Image 1")
 
@@ -37,3 +39,23 @@ The image above shows the T-test results for the 3 different lots individually. 
 1. Lot 2 has a p-value of 0.61  with a true mean of 1500.2. The null hypothesis can't be rejected. the sample mean and population mean are statistically similar.
 
 1. Lot 3 takes a different route than the earlier lots. we have a low p-value of 0.04 and a sample mean of 1496.14. We can hence reject the null hypothesis because the p-value is lower than our accepted significance level. 
+
+## Study Design: MechaCar vs Competition
+This study would involve collecting data on MechaCar and comparable models from different competitors.
+
+Collecting data for comparable models across other competitiors for the following metrics:
+
+Metrics
+1. Selling Price
+1. Horse Power
+1. Maintenance Cost 
+1. Lifespan of cars
+1. Safety Feature Rating
+1. Resale Value
+
+Hypothesis: Null and Alternative
+Null Hypothesis (Ho): MechaCar is priced correctly based on its performance and life cycle.
+Alternative Hypothesis (Ha): MechaCar is NOT priced correctly based on performance and life cycle.
+
+Statistical Tests
+Multiple Linear regressions to see correletion with the selling price and other factors with different models as well. 
